@@ -88,6 +88,7 @@ Feature: Tax Form Step One
     When they open the currency dropdown
     Then only <currencies> are displayed
     And USD, AUD, EUR, GBP are displayed regardless of country code
+    
     Examples:
     |countryCode  |currencies               |
      USA          | USD, AUD, EUR, GBP      |
